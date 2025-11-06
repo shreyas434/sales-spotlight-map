@@ -7,6 +7,7 @@ import { SalesChart } from "@/components/dashboard/SalesChart";
 import { CategoryChart } from "@/components/dashboard/CategoryChart";
 import { TopProducts } from "@/components/dashboard/TopProducts";
 import { SalesMetrics } from "@/components/dashboard/SalesMetrics";
+import { PredictiveAnalytics } from "@/components/dashboard/PredictiveAnalytics";
 
 export interface SalesData {
   "Invoice ID": string;
@@ -159,6 +160,11 @@ INV030,2024-01-29,Sports and travel,3,289.90,Cash,Milwaukee,Normal`;
             </div>
 
             <TopProducts data={salesData} />
+
+            <div className="mt-8">
+              <h2 className="text-2xl font-semibold mb-4">Predictive Analytics</h2>
+              <PredictiveAnalytics data={salesData} />
+            </div>
           </div>
         )}
       </div>
