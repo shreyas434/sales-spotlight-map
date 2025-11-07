@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 15% 20%;
 
-    --primary: 168 76% 36%;
+    --primary: 352 70% 50%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 24 95% 53%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 210 14% 95%;
     --muted-foreground: 210 10% 50%;
 
-    --accent: 168 76% 36%;
+    --accent: 352 70% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,13 +34,13 @@ All colors MUST be HSL.
 
     --border: 210 14% 89%;
     --input: 210 14% 89%;
-    --ring: 168 76% 36%;
+    --ring: 352 70% 50%;
 
     --radius: 0.75rem;
     
-    --gradient-primary: linear-gradient(135deg, hsl(168 76% 36%), hsl(168 76% 46%));
+    --gradient-primary: linear-gradient(135deg, hsl(352 70% 50%), hsl(352 70% 60%));
     --gradient-secondary: linear-gradient(135deg, hsl(24 95% 53%), hsl(24 95% 63%));
-    --gradient-hero: linear-gradient(135deg, hsl(168 76% 36%) 0%, hsl(190 76% 46%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(352 70% 50%) 0%, hsl(352 70% 60%) 100%);
     
     --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.08);
     --shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.12);
@@ -75,7 +75,7 @@ All colors MUST be HSL.
     --popover: 210 15% 16%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 168 76% 46%;
+    --primary: 352 70% 55%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 24 95% 58%;
@@ -84,7 +84,7 @@ All colors MUST be HSL.
     --muted: 210 15% 22%;
     --muted-foreground: 210 10% 65%;
 
-    --accent: 168 76% 46%;
+    --accent: 352 70% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 72% 51%;
@@ -92,11 +92,11 @@ All colors MUST be HSL.
 
     --border: 210 15% 24%;
     --input: 210 15% 24%;
-    --ring: 168 76% 46%;
+    --ring: 352 70% 55%;
     
-    --gradient-primary: linear-gradient(135deg, hsl(168 76% 46%), hsl(168 76% 56%));
+    --gradient-primary: linear-gradient(135deg, hsl(352 70% 55%), hsl(352 70% 65%));
     --gradient-secondary: linear-gradient(135deg, hsl(24 95% 58%), hsl(24 95% 68%));
-    --gradient-hero: linear-gradient(135deg, hsl(168 76% 46%) 0%, hsl(190 76% 56%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(352 70% 55%) 0%, hsl(352 70% 65%) 100%);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
